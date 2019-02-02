@@ -1,0 +1,68 @@
+
+{% extends 'shared/master.html'%}
+{% load static %}
+{% block scripts %}
+{% end block %}
+{% block body %}
+<div style="padding: 200px;" class="form-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-md-3 col-sm-2 control-label" for="exampleInputFirstName2">نام</label>
+                            <div class="col-md-9 col-sm-10">
+                                <input type="text" class="form-control" id="exampleInputFirstName2" placeholder="Eg.Steve">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-sm-2 control-label" for="exampleInputLastName2">نام خانوادگی</label>
+                            <div class="col-md-9 col-sm-10">
+                                <input type="text" class="form-control" id="exampleInputLastName2" placeholder="Eg.Thomas">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-sm-2 control-label">Gender</label>
+                            <div class="col-md-9 col-sm-10">
+                                <input class="check" type="radio" id="check1" name="radio">
+                                <label for="check1">Male</label>
+                                <input class="check" type="radio" id="check2" name="radio">
+                                <label for="check2">Female</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-sm-2 control-label" for="exampleInputName2">Date of Birth</label>
+                            <div class="col-md-3 col-sm-3">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="DD">
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="MM">
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="YYYY">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-sm-2 control-label">Languages</label>
+                            <div class="col-md-9 col-sm-10">
+                                <select class="form-control">
+                                    <option>English(US)</option>
+                                    <option>English(Uk)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-sm-offset-2 col-sm-3">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
